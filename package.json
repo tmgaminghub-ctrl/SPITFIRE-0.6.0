@@ -1,0 +1,49 @@
+{
+  "name": "spitfire",
+  "version": "0.9.0",
+  "main": "app/main.cjs",
+  "scripts": {
+    "start": "npm run assets && electron .",
+    "build:win": "node tools/restore-assets.cjs --materialize && npm run assets && electron-builder --win portable --x64",
+    "assets": "node tools/restore-assets.cjs && node tools/build-manifest.cjs"
+  },
+  "keywords": [],
+  "author": "SPITFIRE Project",
+  "license": "ISC",
+  "description": "SPITFIRE \u2014 Street Rhythm Black Gold Edition",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "electron": "^45.2.2",
+    "electron-builder": "^26.18.0",
+    "node": "^22.23.4",
+    "resedit": "^3.1.0"
+  },
+  "build": {
+    "appId": "games.spitfire.midnight",
+    "productName": "SPITFIRE",
+    "directories": {
+      "output": "../release"
+    },
+    "files": [
+      "app/**/*",
+      "package.json"
+    ],
+    "asar": true,
+    "win": {
+      "target": [
+        "portable"
+      ],
+      "signAndEditExecutable": false,
+      "icon": "app/icon.ico"
+    },
+    "portable": {
+      "artifactName": "SPITFIRE-0.9.0-Windows-x64.exe",
+      "requestExecutionLevel": "user"
+    },
+    "compression": "normal",
+    "electronLanguages": [
+      "en-US"
+    ],
+    "afterPack": "tools/set-icon.cjs"
+  }
+}

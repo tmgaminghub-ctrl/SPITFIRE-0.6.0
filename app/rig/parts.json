@@ -1,0 +1,135 @@
+{
+  "producer_legs": {
+    "x": 0,
+    "y": 541,
+    "w": 312,
+    "h": 227,
+    "file": "rig/producer_legs.png"
+  },
+  "producer_body": {
+    "x": 0,
+    "y": 246,
+    "w": 327,
+    "h": 359,
+    "file": "rig/producer_body.png"
+  },
+  "producer_head": {
+    "x": 157,
+    "y": 180,
+    "w": 121,
+    "h": 163,
+    "file": "rig/producer_head.png"
+  },
+  "producer_upperA": {
+    "x": 25,
+    "y": 286,
+    "w": 138,
+    "h": 164,
+    "file": "rig/producer_upperA.png"
+  },
+  "producer_foreA": {
+    "x": 57,
+    "y": 363,
+    "w": 140,
+    "h": 105,
+    "file": "rig/producer_foreA.png"
+  },
+  "producer_handA": {
+    "x": 162,
+    "y": 425,
+    "w": 121,
+    "h": 73,
+    "file": "rig/producer_handA.png"
+  },
+  "producer_upperB": {
+    "x": 218,
+    "y": 304,
+    "w": 106,
+    "h": 109,
+    "file": "rig/producer_upperB.png"
+  },
+  "producer_foreB": {
+    "x": 268,
+    "y": 356,
+    "w": 62,
+    "h": 66,
+    "file": "rig/producer_foreB.png"
+  },
+  "producer_handB": {
+    "x": 297,
+    "y": 385,
+    "w": 65,
+    "h": 61,
+    "file": "rig/producer_handB.png"
+  },
+  "rapper_legs": {
+    "x": 988,
+    "y": 485,
+    "w": 388,
+    "h": 283,
+    "file": "rig/rapper_legs.png"
+  },
+  "rapper_body": {
+    "x": 1063,
+    "y": 149,
+    "w": 266,
+    "h": 400,
+    "file": "rig/rapper_body.png"
+  },
+  "rapper_head": {
+    "x": 1066,
+    "y": 139,
+    "w": 115,
+    "h": 169,
+    "file": "rig/rapper_head.png"
+  },
+  "rapper_upperA": {
+    "x": 959,
+    "y": 278,
+    "w": 133,
+    "h": 129,
+    "file": "rig/rapper_upperA.png"
+  },
+  "rapper_foreA": {
+    "x": 969,
+    "y": 251,
+    "w": 100,
+    "h": 114,
+    "file": "rig/rapper_foreA.png"
+  },
+  "rapper_handA": {
+    "x": 968,
+    "y": 223,
+    "w": 131,
+    "h": 78,
+    "file": "rig/rapper_handA.png"
+  },
+  "rapper_upperB": {
+    "x": 1213,
+    "y": 165,
+    "w": 128,
+    "h": 111,
+    "file": "rig/rapper_upperB.png"
+  },
+  "rapper_foreB": {
+    "x": 1285,
+    "y": 83,
+    "w": 91,
+    "h": 139,
+    "file": "rig/rapper_foreB.png"
+  },
+  "rapper_handB": {
+    "x": 1212,
+    "y": 38,
+    "w": 135,
+    "h": 107,
+    "file": "rig/rapper_handB.png"
+  },
+  "sampler": {
+    "x": 114,
+    "y": 427,
+    "w": 341,
+    "h": 341,
+    "file": "rig/sampler.png"
+  }
+}

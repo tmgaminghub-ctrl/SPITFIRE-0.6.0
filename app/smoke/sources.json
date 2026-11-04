@@ -1,0 +1,25 @@
+{
+  "assets": {
+    "plume": {
+      "source": "Mobile - Hello Kitty and Friends Happiness Parade - Effects - Colored Smoke Effect.png",
+      "columns": 8,
+      "rows": 8,
+      "sourceCell": 256,
+      "frames": 64,
+      "duration": 4,
+      "cell": 192,
+      "file": "smoke/plume.webp"
+    },
+    "puff": {
+      "source": "PC _ Computer - Showdown Bandit - Miscellaneous - Smoke Particles.png",
+      "columns": 5,
+      "rows": 5,
+      "sourceCell": 422,
+      "frames": 25,
+      "duration": 4,
+      "cell": 192,
+      "file": "smoke/puff.webp"
+    }
+  },
+  "rights": "Third-party game assets supplied by the user. Source-page availability is not a reuse licence. Rights not verified."
+}

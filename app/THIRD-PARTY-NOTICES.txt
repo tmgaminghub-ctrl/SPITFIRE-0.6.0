@@ -1,0 +1,24 @@
+THIRD-PARTY SMOKE ASSETS — SPITFIRE / STREET RHYTHM v0.8.2
+
+Smoke Particles — Showdown Bandit (PC / Computer)
+Source: https://www.spriters-resource.com/pc_computer/showdownbandit/asset/185916/
+Sheet uploaded to The Spriters Resource by Models124717.
+File supplied by the user: PC _ Computer - Showdown Bandit - Miscellaneous - Smoke Particles.png
+25 frames extracted from 422-pixel cells, adapted into a 192-pixel-cell runtime atlas.
+
+Colored Smoke Effect — Hello Kitty and Friends Happiness Parade (Mobile)
+File supplied by the user: Mobile - Hello Kitty and Friends Happiness Parade - Effects - Colored Smoke Effect.png
+Game and effect identification are taken from the supplied filename. No original asset-page URL or uploader credit was supplied for this second sheet.
+64 frames extracted from an 8x8 grid of 256-pixel cells, adapted into a 192-pixel-cell runtime atlas.
+
+Original copyright remains with the respective rights holders. These are third-party game assets, NOT original SPITFIRE artwork and NOT covered by the project's ISC code licence. Original transparency is preserved. No commercial-use or redistribution licence has been verified. Presence on a sprite archive does not itself grant a reuse licence. Obtain appropriate permission before public/commercial distribution, or replace these atlases with licensed/original effects.
+
+Bundled font: Anton by Vernon Adams, distributed under the SIL Open Font License. See fonts/OFL.txt.
+
+CAREER PLAYER-CARD ARTWORK — v0.9.0
+The eleven pack backgrounds are crops of the user-provided backwoods-cigars.jpg contact image. Existing Backwoods brand headers are replaced by custom player-name lettering; other supplied imagery remains. Tobacco-brand artwork/trademarks remain the property of their respective owners. No endorsement, affiliation, product sale or reuse/redistribution licence is asserted. Check appropriate permissions before public/commercial distribution.
+
+PLAYER-NAME TYPEFACE
+Rye (Google Fonts), converted and renamed StreetPack, bundled as fonts/StreetPack-Regular.woff2 with its SIL Open Font License in fonts/Rye-OFL.txt.
+Source: https://github.com/google/fonts/tree/main/ofl/rye
+This is an arched, outlined Western-style approximation, NOT an exact or officially licensed Backwoods logotype/font. WOFF2 conversion preserves the original glyphs; the family was renamed StreetPack to respect the Reserved Font Name in the original licence. Original copyright/OFL notices are retained.

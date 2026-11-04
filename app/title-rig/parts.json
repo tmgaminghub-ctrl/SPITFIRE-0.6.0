@@ -1,0 +1,32 @@
+{
+  "leftForearm": {
+    "x": 107,
+    "y": 618,
+    "file": "title-rig/leftForearm.webp"
+  },
+  "leftHand": {
+    "x": 112,
+    "y": 369,
+    "file": "title-rig/leftHand.webp"
+  },
+  "microphone": {
+    "x": 225,
+    "y": 209,
+    "file": "title-rig/microphone.webp"
+  },
+  "micCable": {
+    "x": 308,
+    "y": 607,
+    "file": "title-rig/micCable.webp"
+  },
+  "rightForearm": {
+    "x": 1282,
+    "y": 615,
+    "file": "title-rig/rightForearm.webp"
+  },
+  "rightHand": {
+    "x": 1276,
+    "y": 265,
+    "file": "title-rig/rightHand.webp"
+  }
+}
