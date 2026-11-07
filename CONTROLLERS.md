@@ -3,7 +3,7 @@
 ## Start here
 
 1. Connect a Windows-compatible gamepad or five-fret guitar controller. Install its manufacturer's driver if Windows requires one.
-2. Launch `SPITFIRE-0.9.0-Windows-x64.exe`.
+2. Launch `SPITFIRE-0.11.4-Windows-x64.exe`.
 3. Press a controller button so Chromium's Gamepad API can expose the device.
 4. Open **Settings → Controllers** from the main menu, or **Controllers** from the pause menu.
 5. Select the device and either **Standard gamepad** or **Five-fret guitar**.

@@ -1,7 +1,7 @@
 'use strict';
 // Preserve the rigged opening title, then enter the user's Street Rhythm poster menu.
 function enterMainMenu(){state='menu';show('title',false);show('menu',true);$('play').focus();}
-function showTitleScreen(){if(state==='playing'||state==='loading')return;state='title';for(const id of ['menu','settings','controllers','pause','results'])show(id,false);show('title',true);if(typeof markTitleControllerBaseline==='function')markTitleControllerBaseline();$('enterMenu').focus();}
+function showTitleScreen(){if(state==='playing'||state==='loading')return;state='title';for(const id of ['menu','settings','controllers','pause','results','tracklistScreen'])show(id,false);show('title',true);if(typeof markTitleControllerBaseline==='function')markTitleControllerBaseline();$('enterMenu').focus();}
 $('enterMenu').onclick=enterMainMenu;$('title').addEventListener('click',enterMainMenu);$('titleBack').onclick=showTitleScreen;
 $('enterMenu').focus();
 window.addEventListener('keydown',e=>{

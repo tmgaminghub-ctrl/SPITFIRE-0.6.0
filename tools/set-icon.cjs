@@ -16,4 +16,8 @@ async function applyIcon(context){
   resources.outputResource(exe);fs.writeFileSync(file,Buffer.from(exe.generate()));
   console.log('Embedded SPITFIRE icon ('+icon.icons.length+' resolutions) into game executable.');
 }
-module.exports=async context=>{await applyIcon(context);if(global.gc)global.gc();};
+module.exports=async context=>{await applyIcon(context);
+ // Optional D3D12/WebGPU DXC compiler is not used by this Canvas2D game.
+ // Retain D3D11, Vulkan/SwiftShader fallbacks, codecs, ICU and all Chromium notices.
+ if(context.electronPlatformName==='win32')fs.rmSync(path.join(context.appOutDir,'dxcompiler.dll'),{force:true});
+ if(global.gc)global.gc();};

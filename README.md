@@ -1,4 +1,4 @@
-# SPITFIRE — Street Rhythm / Black Gold v0.9.0
+# SPITFIRE — Street Rhythm / Black Gold v0.11.4
 
 A Windows x64 portable rhythm-game vertical slice. Built with Canvas 2D, Web Audio and an Electron desktop shell. All assets are bundled; no internet connection, account, or installer is required to play.
 
@@ -8,7 +8,7 @@ The title, six-mode menu, loading artwork, alley stage, articulated performers, 
 
 ## Play on Windows
 
-1. Download `SPITFIRE-0.9.0-Windows-x64.exe` to a writable folder on a Windows 10/11 x64 computer.
+1. Download `SPITFIRE-0.11.4-Windows-x64.exe` to a writable folder on a Windows 10/11 x64 computer.
 2. Launch it, press any button on the title, then select a mode. This is a self-extracting portable app; first launch may take a moment while its runtime extracts to a temporary directory.
 3. Open **Soundcheck** to choose Easy, Normal or Hard, volume, input offset, reduced motion, or roll assist.
 4. Select **Quick Play** (or Career, Versus Battle or Cypher Training). The first session renders the five original synthesized stems into memory before playback.
@@ -221,3 +221,34 @@ Career now includes a locally saved player name and eleven selectable background
 The optional generated wide-title authoring source is also no longer duplicated locally. The title builder can use the complete bundled `app/title-screen.webp` fallback, preserving its baked prompt instead of adding it twice. Restore artwork with `npm run assets` first. Original user-uploaded references are not changed.
 
 Before editing/regenerating binary artwork or fonts, run `node tools/restore-assets.cjs --materialize` so edits affect regular source files rather than disposable cache targets. After building and verifying a new release, `--compact` can safely cache unchanged files matching the release manifest.
+
+## v0.9.1 — Hip-hop paper Options
+
+Options now uses a 16:9 taped-paper zine layout, burgundy selected tabs, graffiti, headphones/skull, turntable and mic artwork. Audio, Video, Controller and Gameplay are functional; settings still use the existing local save. Video includes fullscreen with an unavailable-preview fallback message. The standard/guitar profile selector now correctly preserves the selected value before rebuilding controls. Thirteen automated suites pass. See `OPTIONS-MENU.md`.
+
+### v0.9.2 — printed Options UI
+The functional controls now match the worn-paper artwork, including sliders, checkbox marks, dropdowns, letterpress-style headings, rough category strips and footer badges. Controller bindings use the same treatment. No settings, saves or controls were removed.
+
+### v0.9.3 — Options subpages
+Options starts with only category buttons. Select Audio for Soundcheck, Video or Gameplay for its own settings page, or Controller for bindings. Back/Escape/controller Back first returns to the category list, then to the main menu. Settings, art style and local saves are preserved.
+
+## v0.10.0 — playable notebook Tracklist
+Quick Play now opens the supplied notebook artwork as a real track selector. Select Midnight Circuit, choose difficulty and Play Track. Current-rule local bests are displayed; all existing gameplay/loading/retry remains intact. This build has one real playable track, not fake extra songs. Fourteen automated suites pass. See `TRACKLIST.md`, including the compact Canvas2D Windows runtime configuration and native-testing caveat.
+
+### v0.10.1 — zoomed scrolling setlist
+The notebook is framed closer, with marker-written song rows directly on the paper, red tier lettering and a blue selected song. The list scrolls when it overflows; difficulty, score and Play/Back stay fixed. One real track remains; no mock songs are bundled. Three embedded font families now preload before play. All fourteen suites pass.
+
+## v0.11.0 — six-room Career tour
+Career now has six distinct illustrated stages and three fictional rappers/three fictional producers, with new head/outfit sprites and beat-synchronised pose accents. Original three-room clears/bests migrate to the six-room ladder. New later challenges unlock sequentially; Next Challenge now reaches the arena finale. The existing player-name card, local records and original track remain. Other modes retain their original stage/cast. No new songs, recorded vocals or producer-specific audio were added. All fifteen suites pass. See `CAREER-TOUR.md` for venues, artist lineups, clear targets, assets and testing.
+
+### v0.11.1 — painted rapper refresh
+Nova Verse, Echo Kid and Brick Saint now have painted/shaded heads and more richly lit original puppet-body sprites matching the supplied stage-style reference. Their distinct braids/cap/beanie/outfits, animation, Career lineups and reduced motion remain. Producers, venues, Quick Play character, music and saves are unchanged. All sixteen suites pass. See `PAINTED-RAPPERS.md` for art sources, preservation checks and regeneration.
+
+### v0.11.2 — unique full-body comic rappers
+All three Career rappers now have their own complete illustrated bodies, distinct builds/outfits, nine custom cutout sprites and ten individually placed joints. Nova wears a cropped burgundy bomber and cargos; Echo an oversized teal jersey and joggers; Brick a cream varsity jacket and work boots. This replaces the earlier shared-body head refresh. Producers, venues, other modes and saves remain unchanged. All sixteen suites pass; extracted portable assets and custom icons verified. See `COMIC-CAST.md`.
+
+### v0.11.3 — matching full-body comic producers
+Iris 808, Dust Relay and Tape Theory now have complete unique comic-book bodies, nine custom sprites and ten personal joints each. A clean matching Career sampler removes the old equipment cutout’s baked-in limbs. Both independent performer rigs animate together. Rappers, venues, saves, controls and non-Career original art are unchanged. Seventeen suites passed; all 153 extracted app files and custom icons verified. See `COMIC-PRODUCERS.md`.
+
+### v0.11.4 — all-six ’90s streetwear update
+All three rappers and all three producers now wear oversized 1990s hip-hop outfits: baggy denim, varsity jackets/jerseys, rope chains, bandanas and classic high-tops. All 54 character cutouts updated; six independent rigs, animated gestures, reduced motion, sampler, venues, saves and non-Career art preserved. All seventeen suites passed; extracted portable files and icons verified. See `90S-STREETWEAR.md`.

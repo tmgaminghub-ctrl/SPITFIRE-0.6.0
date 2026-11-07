@@ -1,6 +1,6 @@
 {
   "name": "spitfire",
-  "version": "0.9.0",
+  "version": "0.11.4",
   "main": "app/main.cjs",
   "scripts": {
     "start": "npm run assets && electron .",
@@ -37,7 +37,7 @@
       "icon": "app/icon.ico"
     },
     "portable": {
-      "artifactName": "SPITFIRE-0.9.0-Windows-x64.exe",
+      "artifactName": "SPITFIRE-0.11.4-Windows-x64.exe",
       "requestExecutionLevel": "user"
     },
     "compression": "normal",

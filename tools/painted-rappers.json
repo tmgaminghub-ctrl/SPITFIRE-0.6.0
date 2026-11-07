@@ -1,0 +1,12 @@
+{
+  "version": "0.11.4",
+  "style": "Shaded comic-book full bodies with 1990s hip-hop streetwear",
+  "reference": "../uploads/Screenshot 2026-11-04 144055.png",
+  "rappers": [
+    "nova",
+    "echo",
+    "brick"
+  ],
+  "note": "Full unique rigs, now oversized varsity/jersey outfits, baggy denim, chains and bandanas. All six Career artists use the 90s wardrobe.",
+  "fullBodyMasters": "artwork/comic-rappers/{id}.webp"
+}

@@ -1,5 +1,7 @@
 const {app,BrowserWindow,Menu}=require('electron');
 app.commandLine.appendSwitch('autoplay-policy','no-user-gesture-required');
+// This game uses Canvas2D/Web Audio, not WebGPU; keep the portable runtime lean.
+app.commandLine.appendSwitch('disable-features','WebGPU');
 const path=require('path');
 const fs=require('fs');
 // Keep saves beside the portable executable when the directory is writable.

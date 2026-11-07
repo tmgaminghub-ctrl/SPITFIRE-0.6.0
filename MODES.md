@@ -126,3 +126,6 @@ node test-title-rig.cjs
 ```
 
 The Windows x64 portable EXE has been cross-packaged, not launched on a Windows machine here. Physical two-controller play, Bluetooth/adapter behavior, keyboard rollover, actual Windows audio latency and release signing still need hardware testing. The executable is unsigned.
+
+## v0.11.0 Career expansion
+The Career ladder is now six rooms, not three. The old three names/targets remain first; three later challenges add subway, block-party and arena shows. All six have real new stage paintings and assigned fictional rapper/producer sprites. Old three-entry saves are preserved and extended. See `CAREER-TOUR.md`; all rooms still use the existing Midnight Circuit track.

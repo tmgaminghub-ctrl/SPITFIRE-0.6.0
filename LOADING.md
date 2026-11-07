@@ -5,7 +5,7 @@ The new skull-and-alley loading artwork appears before every gameplay session, i
 ## What actually loads
 
 1. The loading artwork is decoded and given a browser paint opportunity.
-2. The manifest's 54 image assets are loaded and decoded, including stage, title, menu, HUD textures and performer-rig pieces and title prop/atmosphere layers.
+2. The manifest's 56 image assets are loaded and decoded, including stage, title, menu, HUD textures and performer-rig pieces and title prop/atmosphere layers.
 3. The embedded Block/Anton and PackLetter/StreetPack fonts are loaded through the Font Loading API and checked for readiness.
 4. All five original audio stems are rendered into aligned AudioBuffers, or reused if already cached and valid.
 5. Equal audio-buffer lengths, sufficient duration and rig-texture readiness are verified.
@@ -46,3 +46,8 @@ node test-loading.cjs
 ```
 
 Run against a server on port 8080. The tests use Chromium on Linux. The Windows portable EXE is cross-packaged and unsigned; actual Windows startup, physical controller behavior and hardware latency remain unverified here.
+
+Quick Play now goes through Tracklist → Play Track before the unchanged readiness gate. The supplied notebook is included in the manifest.
+
+## v0.11.0 Career assets
+The current readiness manifest contains 116 images and three font families, including six venue paintings and 54 cast sprites. Selected Career Image instances explicitly decode before play and refresh failed instances on Retry. A missing sprite/venue blocks the session; the new suite verifies cast recovery.

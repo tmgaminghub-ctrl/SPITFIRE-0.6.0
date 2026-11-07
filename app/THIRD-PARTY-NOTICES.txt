@@ -22,3 +22,11 @@ PLAYER-NAME TYPEFACE
 Rye (Google Fonts), converted and renamed StreetPack, bundled as fonts/StreetPack-Regular.woff2 with its SIL Open Font License in fonts/Rye-OFL.txt.
 Source: https://github.com/google/fonts/tree/main/ofl/rye
 This is an arched, outlined Western-style approximation, NOT an exact or officially licensed Backwoods logotype/font. WOFF2 conversion preserves the original glyphs; the family was renamed StreetPack to respect the Reserved Font Name in the original licence. Original copyright/OFL notices are retained.
+
+OPTIONS ARTWORK (v0.9.1): New AI-generated hip-hop zine/paper artwork, with original interactive controls laid over it. The supplied Guitar Hero III screenshot was a layout reference, not bundled as the menu background. No Guitar Hero/Activision/Neversoft artwork, title or logo is claimed as project property.
+
+SETLIST LETTERING (v0.10.1): Permanent Marker by Font Diner, copyright 2010 Font Diner, Inc., used unmodified under Apache License 2.0. Downloaded from https://github.com/google/fonts/tree/main/apache/permanentmarker . Full licence: fonts/PermanentMarker-LICENSE.txt. CSS alias InkMarker.
+
+CAREER TOUR (v0.11.0): Six new AI-generated illustrated venue backgrounds. Nova Verse, Echo Kid, Brick Saint, Iris 808, Dust Relay and Tape Theory are fictional game characters, not portrayals or endorsements of real performers. Their head designs are procedurally illustrated by tools/build_career_world.py; outfit variants derive from the existing user-supplied puppet cutouts and retain those source-art rights caveats. No cloned voices, real-artist recordings or new recorded vocals are included. All six shows use the existing original Midnight Circuit composition.
+
+PAINTED RAPPER REFRESH (v0.11.1): Nova Verse, Echo Kid and Brick Saint now use new AI-painted fictional head designs, guided by the user-supplied stage-style screenshot. Their original rig-body adaptations are reshaded with teal/violet stage reflections. No real artist likeness, endorsement, cloned voice or recording is asserted. Existing body-source rights caveats remain applicable. Producer designs are unchanged.
